@@ -1,0 +1,126 @@
+.top {
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.center {
+  flex : 1;
+  margin-left: 60px;
+  margin-right: 20px;
+  max-width: 800px;
+
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  width: 200px;
+  margin-right: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.menu {
+  height: 25px;
+  margin-left: 16px;
+  margin-right: 18px;
+}
+
+.YT {
+  height: 25px;
+}
+
+.search {
+  flex: 1;
+  height: 32px;
+  border-width: 1px;
+  border-color: rgb(192,192,192);
+  border-radius: 20px 0 0 20px;
+  border-style: solid;
+  padding-left: 16px;
+  font-size: 16px;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+  width: 52px;
+}
+
+.search::placeholder {
+  font-family: 'Roboto', sans-serif, Arial;
+}
+
+
+.search-button {
+  height: 36px;
+  width: 62px;
+  background-color: rgb(245, 245, 245) ;
+  border-color: rgb(192,192,192);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0 20px 20px 0 ;
+  margin-left: -1px;
+  margin-right: 10px;
+}
+
+.search-img {
+  height: 26px;
+}
+
+.voice-search-button {
+  height: 36px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(245, 245, 245) ;
+}
+
+.voice-img {
+  height: 24px;
+  margin-top: 2px;
+}
+
+.upload-img {
+  height: 26px;
+}
+
+.apps-img {
+  height: 26px;
+}
+
+.notifis-img {
+  height: 26px;
+  position: relative;
+}
+
+.count {
+  background-color: red;
+  color: white;
+  height: 20px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+.Ulogo-img {
+  height: 32px;
+  border-radius: 16px;
+}
+
+

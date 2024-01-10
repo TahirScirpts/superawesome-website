@@ -1,0 +1,36 @@
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.home {
+  height: 24px;
+}
+
+.explore {
+  height: 24px;
+}
+
+.subs {
+  height: 24px;
+}
+
+.ogs {
+  height: 24px;
+}
+
+.YTmusic {
+  height: 24px;
+}
+
+.library {
+  height: 24px;
+}
